@@ -140,3 +140,45 @@ a:link, a:visited {
         color: #A9A9A9;
     }
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 3rem 7rem;
+    }
+
+    #information {
+        padding: 0 7rem;
+    }
+
+    #media-information {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 3rem 7rem;
+    }
+
+    #information {
+        padding: 0 15rem;
+    }
+
+    #media-information {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        padding: 3rem 7rem;
+    }
+
+    #information {
+        padding: 0 25rem;
+    }
+
+    #media-information {
+        padding: 0 20rem;
+    }
+}
